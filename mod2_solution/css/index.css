@@ -1,0 +1,59 @@
+.menu-heading {
+    width: 200px;
+    border: 1px solid black;
+    float: right;
+    margin: 0px;
+}
+.food {
+    background-color: grey;
+    border: solid black 1px;
+    clear: right;
+    position: relative;
+    margin: 10px 30px 20px 20px;
+    box-sizing: border-box;
+}
+p {
+    padding-top: 30px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Helvetica;
+}
+.chicken {
+    background-color: #ff6699;
+}
+.beef {
+    background-color: #cc3300;
+    color: white;
+}
+.sushi {
+    background-color: #ffff66;
+}
+.all-foods {
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+    .food {
+        float: left;
+        width: 30%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .cell1 {
+        float: left;
+        width: 45%;
+    }
+    .cell2 {
+        float: right;
+        width: 45%;
+    }
+    .cell3 {
+        margin-top: 60px;
+        margin-left: 10px;
+    }
+}
