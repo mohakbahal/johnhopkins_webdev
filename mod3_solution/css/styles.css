@@ -1,0 +1,27 @@
+#header-nav {
+    border-radius: 0;
+    border: 0;
+    width: 100%;
+    right: 0; 
+    top: 0; 
+    z-index: 10;
+    position: fixed;
+}
+.food {
+    background-color: #9e9c9c;
+    padding: 0px 35px;
+}
+.our-menu {
+    padding-bottom: 15px;
+    font-size: 1.6em;
+}
+h3 {
+    font-size: 2em;
+}
+li {
+    border-style: solid;
+    border-width: 1px 1px 0px;
+}
+.last-list-item {
+    border-width: 1px;
+}
